@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fehér János</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="awsm-pearl-lusta.min.css">
+  <link rel="stylesheet" href="css/awsm-pearl-lusta.min.css">
+  <script defer src="js/index.js"></script>
 </head>
 
 <body>
@@ -16,8 +17,9 @@
     <nav>
       <ul>
         <li><a href="https://github.com/OmTheTurtle" rel="noopener noreferrer">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/j%C3%A1nos-feh%C3%A9r-ba320b15b/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-        <li><a href="mailto:feher.janos@simonyi.bme.hu">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/j%C3%A1nos-feh%C3%A9r-ba320b15b/" target="_blank"
+            rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a id="copy-email" title="Email másolása" href="#">feher.janos@simonyi.bme.hu</a></li>
         <li><a href="./index.html">EN</a></li>
       </ul>
     </nav>
@@ -26,17 +28,23 @@
     <article>
       <section>
         <h2>Bemutatkozás</h2>
-        <p>Fehér János vagyok, full stack fejelsztő. Kedvelem a linuxot, a Ruby on Rails-t, a TypeScript-et és mindent, ami web.</p>
+        <p>Fehér János vagyok, full stack fejelsztő. Kedvelem a Linuxot, a Ruby on Rails-t, a TypeScript-et és mindent,
+          ami web.</p>
       </section>
       <section>
         <h2>Projektek</h2>
         <dl>
+          <dt><a href="https://github.com/kir-dev/tanulo-next" target="_blank" rel="noopener noreferrer">TanulóSCH</a>
+          <dd>Egy webapp, amivel a Schönherz Zoltán Kollégium tanulószobáinak foglaltságát lehet követni. Express,
+            TypeScript és pug
+            segítségével készült.</dd>
           <dt><a href="https://github.com/OmTheTurtle/quiz" target="_blank" rel="noopener noreferrer">Quiz</a></dt>
           <dd>A középiskolám kvíz szoftverének másolata, Sapper keretrendszert használva.</dd>
-          <dt><a href="https://github.com/kir-dev/tanulo-next" target="_blank" rel="noopener noreferrer">TanulóSCH</a></dt>
-          <dd>Egy webapp, amivel a Schönherz Zoltán Kollégium tanulószobáinak foglaltságát lehet követni. Express és pug segítségével készült.</dd>
-          <dt><a href="https://github.com/kir-dev/parkett-klub-api" target="_blank" rel="noopener noreferrer">Parkett Klub API</a></dt>
-          <dd>A Parkett Klub, egy kollégiumi táncalkalmakat szervező öntevékeny kör számára készült Ruby on Rails API.</dd>
+          </dt>
+          <dt><a href="https://github.com/kir-dev/parkett-klub-api" target="_blank" rel="noopener noreferrer">Parkett
+              Klub API</a></dt>
+          <dd>A Parkett Klub, egy kollégiumi táncalkalmakat szervező öntevékeny kör számára készült Ruby on Rails API.
+          </dd>
         </dl>
       </section>
       <section>
@@ -73,6 +81,9 @@
       </section>
     </article>
   </main>
+  <footer>
+    Fehér János &copy; 2020
+  </footer>
 </body>
 
 </html>
